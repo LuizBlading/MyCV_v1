@@ -1,0 +1,52 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #e6e7ff;
+  margin: 5px 15%;
+  position: relative;
+  width: 600px;
+}
+
+h1{
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+h3{
+  font-size: 14px;
+}
+
+#intro{
+  height: 190px;
+  margin-left: 200px;
+  padding: 5px;
+}
+
+.apresentacao{
+  margin: 25px 0px;
+}
+
+
+#perfil{
+  width: 80%;
+  margin-top: 50px;
+}
+
+.infos{
+  margin-top: 50px;
+}
+
+
+/* Posicionamento da foto a direita */
+#fotoPerfil{
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  height: 180px;
+  width: 180px;
+
+  /* deixando bordas arredondadas */
+  border-color: #ccc;
+  border: 3px;
+  border-radius: 50%;
+}
+
