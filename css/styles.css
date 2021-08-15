@@ -1,0 +1,88 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #e0e0e0;
+}
+
+.content{
+  position: relative;
+  margin: auto 10%;
+  padding: 10px;
+  background-color: #e6e7ff;
+  border-radius: 15px;
+}
+
+.paragrafo{
+  margin: 5px 15px;
+}
+
+#createdBy{
+  text-align: center;
+  font-style: italic;
+}
+
+h1{
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.title{
+  height: 40px;
+  background-color: #5a5a5a;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+h2{
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  left: 20px;
+}
+
+
+h3{
+  font-size: 14px;
+}
+
+#intro{
+  height: 190px;
+  margin-left: 200px;
+  padding: 5px;
+}
+
+.apresentacao{
+  margin: 25px 0px;
+}
+
+
+#perfil{
+  margin-top: 50px;
+}
+
+.infos{
+  margin-top: 50px;
+}
+
+
+/* Posicionamento da foto a direita */
+#fotoPerfil{
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  height: 180px;
+  width: 180px;
+
+  /* deixando bordas arredondadas */
+  border-color: #ccc;
+  border: 3px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  padding-left: 5px;
+}
